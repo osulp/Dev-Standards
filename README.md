@@ -18,6 +18,8 @@ Language Specific
 
  * [Python](python.md)
 
+ * [Ruby](ruby.md)
+
 
 License
 -------
