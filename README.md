@@ -13,6 +13,12 @@ Language Notes:
 General Practices
 ------------------
 
+### Security
+
+ 1. Use environment variables to store confidential information.
+    * If this is not possible be sure that an example config is provided, the true config is not in source control, and the proper config is set up in production
+      via an automatic deploy step.
+
 Language Specific
 ------------------
 
@@ -25,4 +31,5 @@ License
 -------
 
 [![cc-by](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0)
+
 
