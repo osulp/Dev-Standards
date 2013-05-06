@@ -13,6 +13,20 @@ Language Notes:
 General Practices
 ------------------
 
+### Style Guidelines
+
+1. Use two spaces to an indent.
+2. Use unix-style line endings.
+3. Use a newline at the end of the file.
+4. Don't leave trailing whitespace.
+
+#### Documentation
+
+1. Do document every method using comments.
+   * Prefer automatic documentation systems which use tag syntax.
+     Specific recommendations can be found in the language-specific files.
+2. Avoid inline comments.
+
 ### Security
 
  1. Use environment variables to store confidential information.
