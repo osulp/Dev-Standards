@@ -31,7 +31,8 @@ When organizing your Gemfile, do the following:
     end
     ```
     * This group is usually for dependencies that you would require to run developmental commands
-      as well as the test suite, but which are not needed for production. Things like guard.
+      as well as the test suite, but which are not needed for production. Things like guard or gems
+      which have generators.
 
  6. Follow with test group. These are gems that would only be used in a test environment.
     * This group should be able to be excluded and developmental commands can run.
