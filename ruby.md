@@ -21,6 +21,7 @@ When organizing your Gemfile, do the following:
 
     ```ruby
     group :development do
+      gem 'rubocop', '~>0.10.0'
     end
     ```
 
