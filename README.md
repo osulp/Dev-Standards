@@ -27,6 +27,9 @@ General Practices
      Specific recommendations can be found in the language-specific files.
 2. Avoid inline comments.
 
+### Source Control
+1. Use [GitFlow](https://github.com/nvie/gitflow).
+
 ### Security
 
  1. Use environment variables to store confidential information.
