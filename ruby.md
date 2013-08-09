@@ -3,8 +3,9 @@ Ruby
 
 Summary
 --------
+ 1. Use Bundler and organize your Gemfiles.
  1. Use the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) and [validate](https://github.com/bbatsov/rubocop) style.
- 
+
 
 Managing Dependencies
 ----------------------
@@ -37,3 +38,9 @@ When organizing your Gemfile, do the following:
 
  6. Follow with test group. These are gems that would only be used in a test environment.
     * This group should be able to be excluded and developmental commands can run.
+
+
+Style
+-----
+
+ * [Rubocop Configuration](.rubocop.yml)
