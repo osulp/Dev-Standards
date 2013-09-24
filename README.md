@@ -24,11 +24,30 @@ General Practices
 
 1. Do document every method using comments.
    * Prefer automatic documentation systems which use tag syntax.
-     Specific recommendations can be found in the language-specific files.
+   * Specific recommendations can be found in the language-specific files.
 2. Avoid inline comments.
 
 ### Source Control
-1. Use [GitFlow](https://github.com/nvie/gitflow).
+1. Use Git for source control.
+
+#### Feature Branches
+1. Do work in feature branches, named with a prefix 'feature/[branch-name]'.
+2. Publish feature branches to the GitHub repository when:
+   * Collaboratively developing the feature.
+   * Seeking code review in advance of a pull request.
+   * Sharing the feature externally.
+   * If your code isn't going to be useful or meaningful to others,
+     clean it up first.
+3. Keep branches clean before publishing. Public commit history is immutable.
+4. Send pull requests to merge features to Master.
+5. Delete branches when they are fully merged and no longer needed.
+
+#### Pull Requests & Merging
+1. Keep pull requests clean.
+   * Retain 'milestone' commits, representing substantial peices of work.
+   * Squash minor and personal workflow commits into milestones.
+2. Pull requests are subject to review. Someone other than you must merge them.
+3. Let CI finish before merging a pull request.
 
 ### Security
 
@@ -48,5 +67,3 @@ License
 -------
 
 [![cc-by](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0)
-
-
