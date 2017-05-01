@@ -39,9 +39,9 @@ When organizing your Gemfile, do the following:
  6. Follow with test group. These are gems that would only be used in a test environment.
     * This group should be able to be excluded and developmental commands can run.
 
-### Coveralls and CirvleCI
+### Coveralls and CircleCI
 
-   1. To integrate with coveralls:
+   1. To integrate with Coveralls:
       -Add the Coveralls gem and the simplecov gem to your gemfile
       -Bundle install
       -Add the badge to your readme file (Badges can be found in readme.md files in osulp repos)
